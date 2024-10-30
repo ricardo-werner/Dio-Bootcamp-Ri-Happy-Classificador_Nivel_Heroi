@@ -1,12 +1,12 @@
-# Desenvolvimento do Jogo Detona Ralph
+# Desenvolvimento da Página de Classificação de Heroi
 
-Desafio prático do Bootcamp da Ri Happy, para desenvolver um cópia do jogo detona Ralph.
+Desafio prático do Bootcamp da Ri Happy, para desenvolver uma página para aplicação dos elementos fundamentais na programação.
 
-## Página estática de Portifólio DEV pessoal 
+## Página estática de Classificar Heroi 
 
 ### 📜 Sobre o Projeto
 
-Este projeto consiste em desenvolver uma cópia do jogo para a plataforma Wii, conhecido como Detona Ralph.  Neste desenvolvimento, iremos aplicar os conceitos estudados de HTML:5, CSS e iniciar o aprendizado do Javascript, para dar ação interatividade à uma página ou jogo.
+Este projeto consiste em desenvolver uma página de classificação de heroi, baseado na regra de armazenar e verificar a quantida de XP (vida) e ter como resultado final a mensagem "O Heroi de nome **{nome}** está no nível **{nivel}**".  Neste desenvolvimento, iremos aplicar os conceitos estudados de HTML:5, CSS e iniciar o aprendizado do Javascript, para dar ação interatividade à página.
 
 ### 🔗 Links Úteis
 
@@ -16,36 +16,36 @@ Este projeto consiste em desenvolver uma cópia do jogo para a plataforma Wii, c
 
 ### ✅ Status do Projeto
 
-**Em Desenvolvimento**
+**Concluído**
 
 ### 🎥 Demonstração
 
-#### Tela do Jogo
+#### Tela da Página
 <p align="center">
-  <img width="480" src="./src/to_readme/telaDoJogo.PNG" alt="imagem da tela do jogo Detona Ralph">
+  <img width="480" src="./src/to_readme/tela_classificador.PNG" alt="imagem da tela da página do classificador de heroi">
 </p>
 
 #### Tela do código
 <p align="center">
-  <img width="480" src="./src/to_readme/telaDoCodigo.PNG" alt="imagem dos códigos utilizados na programação do jogo Detona Ralph">
+  <img width="480" src="./src/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do classificador de heroi">
 </p>
 
 ### 🧩 Desafio
 
-O desafio proposto neste projeto foi criar uma cópia do jogo Detona Ralph, aplicando a interatividade do jogador com a aplicação do que foi aprendido na utilização do javascript.
+O desafio proposto neste projeto foi desenvolver uma página de classificação de heroi, aplicando a interatividade do usuário com a aplicação do que foi aprendido na utilização do javascript.
 
 ### 📝 Requisitos da Aplicação
 
 | Item  | Descrição                                                                       |
 |-------|---------------------------------------------------------------------------------|
 |  1    | A página deve ser desenvolvida em HTML, CSS e Javascript                        |
-|  2    | Modelagem do layout, formatos, tipografias, cores e organização padrão da aula. |
+|  2    | Modelagem do layout, formatos, tipografias, cores e organização livre.          |
 |  2.1  | Opcional: Modelagem de modo livre.                                              |
 
 
 ### 🚀 Plano do Projeto
 
-No desenvolvimento deste jogo, foram aplicados os seguintes conceitos:
+No desenvolvimento desta página, foram aplicados os seguintes conceitos:
 
 | Item  | Descrição                                   |
 |-------|---------------------------------------------|
@@ -70,7 +70,7 @@ Desenvolver este projeto foi mais um passo no meu desenvolvimento na arte da pro
 
 1. Clone o repositório:
    
-   git clone https://github.com/ricardo-werner/Dio-Bootcamp_Ri-Happy-Jogo_Detona_Ralph_JS.git
+  git clone https://github.com/ricardo-werner/Dio-Bootcamp_Ri-Happy-Classificador_Nivel_Heroi.git
 
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
