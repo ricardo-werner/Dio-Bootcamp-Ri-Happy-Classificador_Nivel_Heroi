@@ -8,8 +8,8 @@
   --font-family: "JetBrains Mono", sans-serif;
   --text-sm: 400 0.625rem var(--font-family);
   --text-md: 400 1rem var(--font-family);
-  --text-lg: 700 1.25rem var(--font-family);
-  --text-color: #0000;
+  --text-lg: 700 2rem var(--font-family);
+  --text-color: #ec0a96;
   --text-color-result: #eb0a0a;
 
 }
@@ -25,8 +25,33 @@ body {
 h1,
 h2 {
   font: var(--text-lg);
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
 }
+
+h2 span{
+  font: var(--text-lg);
+  color: var(--text-color);
+}
+
+header {
+  margin: 2rem 0;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+section #heroiForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+
+
 .result {
   font: var(--text-md);
   color: var(--text-color-result);
