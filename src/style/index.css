@@ -9,8 +9,11 @@
   --text-sm: 400 0.625rem var(--font-family);
   --text-md: 400 1rem var(--font-family);
   --text-lg: 700 2rem var(--font-family);
-  --text-color: #ec0a96;
-  --text-color-result: #eb0a60b0;
+  --background-color: #e99c50;
+  --text-color: #000000;
+  --text-color-button: #ff8000;
+  --text-color-span: #040d8ac5;
+  --text-color-result: #ff0000;
 }
 
 body {
@@ -19,6 +22,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/super-herois.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -1;
 }
 
 h1,
@@ -32,7 +53,7 @@ h2 {
 
 h2 span {
   font: var(--text-lg);
-  color: var(--text-color);
+  color: var(--text-color-span);
 }
 
 header {
@@ -68,24 +89,24 @@ section .heroiXp input {
   width: 100%;
   padding: 0.5rem;
   font: var(--text-md);
-  border: 1px solid #000;
-  border-radius: 0.25rem;
+  border: 1px solid #000000;
+  border-radius: 0.825rem;
   margin-top: 0.5rem;
 }
 
 section button {
   padding: 0.5rem 1rem;
   font: var(--text-md);
-  background-color: var(--text-color);
-  color: #fff;
+  background-color: var(--text-color-button);
+  color: #000000;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: 0.825rem;
   margin-top: 2rem;
   cursor: pointer;
 }
 
 section button:hover {
-  background-color: #9e059e;
+  background-color: var(--background-color);
   transform: scale(1.05);
 }
 
@@ -93,8 +114,8 @@ section .result {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font: var(--text-md);
-  color: var(--text-color-result);
+  font: var(--text-lg);
+  color: var(--text-color);
   margin-top: 2rem;
 }
 
@@ -103,14 +124,13 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border-top: 1px solid #000;
+  border-top: 1px solid #000000;
   gap: 3.5rem;
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: white; /* Defina uma cor de fundo para evitar sobreposição */
-  padding: 1rem;
-  z-index: 10; /* Garante que fique acima de outros elementos */
+  background-color: #FFFFFF; 
+  z-index: 10;
 }
 
 footer #media-heroiFooter {
