@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "JetBrains Mono", sans-serif;
+  --text-sm: 400 0.625rem var(--font-family);
+  --text-md: 400 1rem var(--font-family);
+  --text-lg: 700 1.25rem var(--font-family);
+  --text-color: #0000;
+  --text-color-result: #eb0a0a;
+
+}
+
+body {
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  font: var(--text-lg);
+
+}
+.result {
+  font: var(--text-md);
+  color: var(--text-color-result);
+  margin-top: 1.25rem;
+}
