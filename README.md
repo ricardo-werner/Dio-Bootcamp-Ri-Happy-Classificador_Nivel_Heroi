@@ -25,6 +25,11 @@ Este projeto consiste em desenvolver uma página de classificação de heroi, ba
   <img width="480" src="./src/to_readme/tela_classificador.PNG" alt="imagem da tela da página do classificador de heroi">
 </p>
 
+#### Tela da Página com Resultado
+<p align="center">
+  <img width="480" src="./src/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do classificador de heroi">
+</p>
+
 #### Tela do código
 <p align="center">
   <img width="480" src="./src/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do classificador de heroi">
