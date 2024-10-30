@@ -36,3 +36,9 @@ function calcularNivel() {
   const resultado = document.getElementById("resultado");
   resultado.textContent = `O Herói de nome ${nome} está no nível de ${nivel}`;
 }
+
+function resetarClassificacao() {
+  document.getElementById("nomeHeroi").value = "";
+  document.getElementById("xpHeroi").value = "";
+  document.getElementById("resultado").textContent = "";
+}
