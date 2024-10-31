@@ -18,7 +18,9 @@ Este projeto consiste em desenvolver uma página de classificação de heroi, ba
 
 **Concluído**
 
-### 🎥 Demonstração
+### 🎥 Deploy
+
+- https://ricardo-werner.github.io/Dio-Bootcamp_Ri-Happy-Classificador_Nivel_Heroi/
 
 #### Tela da Página
 <p align="center">
