@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "JetBrains Mono", sans-serif;
+  --text-sm: 400 0.625rem var(--font-family);
+  --text-md: 400 1rem var(--font-family);
+  --text-lg: 700 2rem var(--font-family);
+  --background-color: #e99c50;
+  --text-color: #000000;
+  --text-color-button: #ff8000;
+  --text-color-span: #040d8ac5;
+  --text-color-result: #ff0000;
+}
+
+body {
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/super-herois.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+h1,
+h2 {
+  font: var(--text-lg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+h2 span {
+  font: var(--text-lg);
+  color: var(--text-color-span);
+}
+
+header {
+  margin: 2rem 0;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}

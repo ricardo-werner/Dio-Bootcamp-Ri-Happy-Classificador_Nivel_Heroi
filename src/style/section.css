@@ -1,0 +1,56 @@
+section {
+  margin-top: 2rem;
+}
+
+section #heroiForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+section .heroiXp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .heroiXp label {
+  font: var(--text-md);
+  width: 60%;
+}
+
+section .heroiXp input {
+  width: 100%;
+  padding: 0.5rem;
+  font: var(--text-md);
+  border: 1px solid #000000;
+  border-radius: 0.825rem;
+  margin-top: 0.5rem;
+}
+
+section button {
+  padding: 0.5rem 1rem;
+  font: var(--text-md);
+  background-color: var(--text-color-button);
+  color: #000000;
+  border: none;
+  border-radius: 0.825rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color: var(--background-color);
+  transform: scale(1.05);
+}
+
+section .result {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font: var(--text-lg);
+  color: var(--text-color);
+  margin-top: 2rem;
+}
