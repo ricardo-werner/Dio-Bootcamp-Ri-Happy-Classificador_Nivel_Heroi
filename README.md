@@ -6,7 +6,7 @@ Desafio prático do Bootcamp da Ri Happy, para desenvolver uma página para apli
 
 ### 📜 Sobre o Projeto
 
-Este projeto consiste em desenvolver uma página de classificação de heroi, baseado na regra de armazenar e verificar a quantida de XP (vida) e ter como resultado final a mensagem "O Heroi de nome **{nome}** está no nível **{nivel}**".  Neste desenvolvimento, iremos aplicar os conceitos estudados de HTML:5, CSS e iniciar o aprendizado do Javascript, para dar ação interatividade à página.
+Este projeto consiste em desenvolver uma página de classificação de heroi, baseado na regra de armazenar e verificar a quantidade de XP (vida) e ter como resultado final a mensagem "O Heroi de nome **{nome}** está no nível de **{nivel}**".  Neste desenvolvimento, iremos aplicar os conceitos estudados de HTML:5, CSS e iniciar o aprendizado do Javascript, para dar ação interatividade à página.
 
 ### 🔗 Links Úteis
 
