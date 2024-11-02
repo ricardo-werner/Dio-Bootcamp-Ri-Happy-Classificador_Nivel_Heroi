@@ -6,48 +6,72 @@
 
 :root {
   --font-family: "JetBrains Mono", sans-serif;
-  --text-sm: 400 0.625rem var(--font-family);
-  --text-md: 400 1rem var(--font-family);
+  --font-xsm: 400 0.3rem var(--font-family);
+  --text-sm: 400 1.1rem var(--font-family);
+  --text-md: 600 1.25rem var(--font-family);
+  --text-xmd: 600 1.4rem var(--font-family);
   --text-lg: 700 2rem var(--font-family);
-  --background-color: #e99c50;
-  --text-color: #000000;
-  --text-color-button: #ff8000;
-  --text-color-span: #040d8ac5;
-  --text-color-result: #ff0000;
+  --background-color-primary: #e99c50;
+  --background-color-secondary: #00000099;
+  --background-color-tertiary: #ffffff1a;
+  --background-color-quaternary: #08f0e0;
+  --text-color-primary: #000000;
+  --text-color-secondary: #ffffff;
+  --text-color-button-verify: #ff8000;
+  --text-color-button-reset: #00a99d;
+  --text-color-span: #E53935;
+  --text-color-result: #21f705;
 }
+
+/* Fundo com imagem e camada semi-transparente */
 
 body {
-  font-family: var(--font-family);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  position: relative;
-  z-index: 1;
+    font-family: var(--font-family);
+    color: var(--text-color-secondary);
+    background: url('../images/super-herois.jpeg') center/cover no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1.5rem 0;
+    min-height: 100vh;
 }
 
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/super-herois.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.5;
-  z-index: -1;
+/* Camada semi-transparente */
+.background-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-secondary);
+    z-index: 0;
 }
 
-h1,
-h2 {
+.container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 40rem;
+    padding: 1.25rem;
+    background: var(--background-color-tertiary);
+    border-radius: 0.5rem;
+    backdrop-filter: blur(0.5rem); /* Dá um efeito de desfoque para um ar mais moderno */
+}
+
+h1 {
   font: var(--text-lg);
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font: var(--text-md);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   margin-bottom: 1rem;
 }
 
@@ -57,7 +81,6 @@ h2 span {
 }
 
 header {
-  margin: 2rem 0;
   width: 100%;
   border-bottom: 1px solid #000;
 }
