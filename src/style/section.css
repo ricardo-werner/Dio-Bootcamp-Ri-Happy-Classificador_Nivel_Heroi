@@ -2,47 +2,62 @@ section {
   margin-top: 2rem;
 }
 
-section #heroiForm {
+.heroForm {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
 
-section .heroiXp {
+.hero {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  margin: 1rem 0;
 }
 
-section .heroiXp label {
+.hero label {
+  margin: 0.5rem 0;
   font: var(--text-md);
-  width: 60%;
 }
 
-section .heroiXp input {
-  width: 100%;
-  padding: 0.5rem;
-  font: var(--text-md);
-  border: 1px solid #000000;
-  border-radius: 0.825rem;
-  margin-top: 0.5rem;
+.hero input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
 }
 
-section button {
+.verify {
   padding: 0.5rem 1rem;
-  font: var(--text-md);
-  background-color: var(--text-color-button);
-  color: #000000;
+  font: var(--text-xsm);
+  background-color: var(--text-color-button-verify);
+  color: var(--text-color-primary);
   border: none;
   border-radius: 0.825rem;
   margin-top: 2rem;
   cursor: pointer;
 }
 
-section button:hover {
-  background-color: var(--background-color);
+.reset {
+  padding: 0.5rem 1rem;
+  font: var(--text-xsm);
+  background-color: var(--text-color-button-reset);
+  color: var(--text-color-primary);
+  border: none;
+  border-radius: 0.825rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.verify:hover {
+  background-color: var(--background-color-primary);
+  transform: scale(1.05);
+}
+
+.reset:hover {
+  background-color: var(--background-color-quaternary);
   transform: scale(1.05);
 }
 
@@ -50,7 +65,7 @@ section .result {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font: var(--text-lg);
-  color: var(--text-color);
-  margin-top: 2rem;
+  font: var(--text-xmd);
+  color: var(--text-color-result);
+  margin: 2rem 0;
 }
