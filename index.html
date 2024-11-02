@@ -16,41 +16,50 @@
   </head>
 
   <body>
-    <header>
-      <h1>Classificação de Nível do Herói</h1>
-    </header>
+    <div class="background-cover"></div>
 
-    <main>
+    <main class="container">
+      <header>
+        <h1>Classificação de Nível do Herói</h1>
+      </header>
+      
       <section>
         <h2>
           Qual é o nome do seu herói <span>&nbsp;Marvel&nbsp;</span> favorito?
         </h2>
-        <form id="heroiForm">
-          <div class="heroiXp">
-            <label for="nomeHeroi">Nome do Herói:</label>
+        <form id="heroForm">
+          <div class="hero">
+            <label for="heroName">Nome do Herói:</label>
             <input
               type="text"
-              id="nomeHeroi"
+              id="heroName"
               placeholder="Digite o nome do herói"
               required
             />
           </div>
 
-          <div class="heroiXp">
-            <label for="xpHeroi">XP do Herói:</label>
+          <div class="hero">
+            <label for="heroXP">XP do Herói:</label>
             <input
               type="number"
-              id="xpHeroi"
+              id="heroXP"
               placeholder="Quantos XP?"
               required
             />
           </div>
 
           <div>
-            <button type="button" onclick="calcularNivel()">
+            <button 
+              class="verify" 
+              type="button" 
+              onclick="calcularNivel()">
               Verificar Nível
             </button>
-            <button type="button" onclick="resetarClassificacao()">
+            <button 
+              class="reset" 
+              type="button"
+              onclick="resetarClassificacao()"
+            >
               Resetar Classificação
             </button>
           </div>
@@ -63,29 +72,42 @@
     </main>
 
     <footer id="heroiFooter">
-            <div class="content-heroiFooter">
-                <h6 class="copy">
-                    &copy; 2024 Classificação de Heróis. Todos os direitos reservados.
-                </h6>
-            </div>
-            <div class="content-heroiFooter">
-                <h6 class="dev">
-                    Desenvolvido por Ricardo Werner - Dev em Desenvolvimento<span id="current-year"></span>
-                </h6>
-            </div>
-            <div id="media-heroiFooter">
-                <p>Redes: </p>
-                <a href="https://github.com/ricardo-werner" title="GitHub | ricardo-werner">
-                  <img class="redes" src="src/images/github.png" alt="Logo do GitHub em formato quadrado nas cores preto e branca."
-                    >
-                </a>
-                <a href="https://www.linkedin.com/in/ricardo-werner" title="LinkedIn | Ricardo Werner Grosscklauss">
-                  <img class="redes" src="src/images/linkedin.png"
-                    alt="Logo do LinkedIn em formato circular, com a borda na cor azul e letras em fundo branco"
-                    >
-                </a>
-              </div>
-        </footer>
+      <div class="content-heroiFooter">
+        <h6 class="copy">
+          &copy; 2024 Classificação de Heróis. Todos os direitos reservados.
+        </h6>
+      </div>
+      <div class="content-heroiFooter">
+        <h6 class="dev">
+          Desenvolvido por Ricardo Werner - Dev em Desenvolvimento<span
+            id="current-year"
+          ></span>
+        </h6>
+      </div>
+      <div id="media-heroiFooter">
+        <p>Redes:</p>
+        <a
+          href="https://github.com/ricardo-werner"
+          title="GitHub | ricardo-werner"
+        >
+          <img
+            class="redes"
+            src="src/images/github.png"
+            alt="Logo do GitHub em formato quadrado nas cores preto e branca."
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ricardo-werner"
+          title="LinkedIn | Ricardo Werner Grosscklauss"
+        >
+          <img
+            class="redes"
+            src="src/images/linkedin.png"
+            alt="Logo do LinkedIn em formato circular, com a borda na cor azul e letras em fundo branco"
+          />
+        </a>
+      </div>
+    </footer>
 
     <script src="./src/scripts/script.js"></script>
   </body>
