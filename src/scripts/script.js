@@ -1,7 +1,7 @@
 function calcularNivel() {
   // Variáveis
-  const nome = document.getElementById("nomeHeroi").value;
-  const xp = parseInt(document.getElementById("xpHeroi").value);
+  const nome = document.getElementById("heroName").value;
+  const xp = parseInt(document.getElementById("heroXP").value);
   let nivel;
 
   // Estruturas de Decisão utilizando switch/case para intervalos de XP
@@ -34,11 +34,11 @@ function calcularNivel() {
 
   // Exibindo o resultado
   const resultado = document.getElementById("resultado");
-  resultado.textContent = `O Herói de nome ${nome} está no nível de ${nivel}`;
+  resultado.textContent = `O Herói Marvel ${nome} está no nível ${nivel}`;
 }
 
 function resetarClassificacao() {
-  document.getElementById("nomeHeroi").value = "";
-  document.getElementById("xpHeroi").value = "";
+  document.getElementById("heroName").value = "";
+  document.getElementById("heroXP").value = "";
   document.getElementById("resultado").textContent = "";
 }
