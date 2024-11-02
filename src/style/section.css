@@ -62,9 +62,6 @@ section {
 }
 
 section .result {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   font: var(--text-xmd);
   color: var(--text-color-result);
   margin: 2rem 0;
