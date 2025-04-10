@@ -24,17 +24,17 @@ Este projeto consiste em desenvolver uma página de classificação de heroi, ba
 
 #### Tela da Página
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_classificador.PNG" alt="imagem da tela da página do classificador de heroi">
+  <img width="480" src="./src/assets/to_readme/tela_classificador.PNG" alt="imagem da tela da página do classificador de heroi">
 </p>
 
 #### Tela da Página com Resultado
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do classificador de heroi">
+  <img width="480" src="./src/assets/to_readme/tela_resultado.PNG" alt="imagem da tela do resultado da página do classificador de heroi">
 </p>
 
 #### Tela do código
 <p align="center">
-  <img width="480" src="./src/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do classificador de heroi">
+  <img width="480" src="./src/assets/to_readme/tela_codigo.PNG" alt="imagem dos códigos utilizados na programação da página do classificador de heroi">
 </p>
 
 ### 🧩 Desafio
@@ -82,17 +82,17 @@ Desenvolver este projeto foi mais um passo no meu desenvolvimento na arte da pro
 3. Abra o projeto no Visual Studio Code e ative o Go Live:
     
    <p align="center">
-     <img width="280" src="./src/to_readme/GoLive.jpg" alt="Ativando o Go Live">
+     <img width="280" src="./src/assets/to_readme/GoLive.jpg" alt="Ativando o Go Live">
    </p>
 
    <p align="center">
-     <img width="280" src="./src/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
+     <img width="280" src="./src/assets/to_readme/GoLiveOn.jpg" alt="Go Live ativado">
    </p>
 
 4. Visualize o resultado na página web:
 
    <p align="center">
-     <img width="480" src="./src/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
+     <img width="480" src="./src/assets/to_readme/resultadoWeb.PNG" alt="Resultado na Web">
    </p>
 
 
