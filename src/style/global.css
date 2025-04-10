@@ -26,7 +26,7 @@
 body {
   font-family: var(--font-family);
   color: var(--text-color-secondary);
-  background: url('../images/super-herois.jpeg') center/cover no-repeat;
+  background: url('../assets/images/super-herois.jpeg') center/cover no-repeat;
   position: relative;
   display: flex;
   justify-content: center;
